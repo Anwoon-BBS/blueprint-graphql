@@ -17,7 +17,7 @@ you need to add this in your <code>filesystem disk</code>
 ```
 
 ## Usage
-Refer to [Blueprint's Basic Usage](https://github.com/laravel-shift/blueprint#basic-usage) to get started. Afterwards you can run the `blueprint:build` command to generate Nova resources automatically. To get an idea of how easy it is you can use the example `draft.yaml` file below.
+Refer to [Blueprint's Basic Usage](https://github.com/laravel-shift/blueprint#basic-usage) to get started. Afterwards you can run the `blueprint:build` command to generate Graphql resources automatically. To get an idea of how easy it is you can use the example `draft.yaml` file below.
 
 ```yaml
 models:
