@@ -7,6 +7,7 @@
         "blueprint-graphpql-addon"
     ],
     "homepage": "https://github.com/Anwoon-BBS/blueprint-graphql",
+    "licence": "proprietary",
     "type": "library",
     "authors": [
         {
@@ -33,5 +34,6 @@
                 "Anwoon\\BlueprintGraphqlAddon\\BlueprintGraphqlAddonServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
