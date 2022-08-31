@@ -1,6 +1,6 @@
 <?php
 
-namespace Anwoon\BlueprintGraphqlAddon\Generator;
+namespace Anwoon\BlueprintGraphqlAddon;
 
 use Blueprint\Blueprint;
 use Illuminate\Contracts\Support\DeferrableProvider;
