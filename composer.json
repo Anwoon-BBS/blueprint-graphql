@@ -1,0 +1,37 @@
+{
+    "name": "anwoon/blueprint-graphql-addon",
+    "description": "The addon of blueprint for generate graphql type file for lighthouse or other library",
+    "keywords": [
+        "anwoon",
+        "bbs",
+        "blueprint-graphpql-addon"
+    ],
+    "homepage": "https://github.com/Anwoon-BBS/blueprint-graphql",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexis Iannone",
+            "email": "alexis.iannone@big-boss-studio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "laravel-shift/blueprint": "^1.18 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anwoon\\BlueprintGraphqlAddon\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anwoon\\BlueprintGraphqlAddon\\BlueprintGraphqlAddonServiceProvider"
+            ]
+        }
+    }
+}
