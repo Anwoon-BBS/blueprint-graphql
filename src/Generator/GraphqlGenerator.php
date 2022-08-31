@@ -10,6 +10,7 @@ use Illuminate\Support\Str;
 
 class GraphqlGenerator implements Generator
 {
+    protected $types = ['graphql'];
 
     public function __construct(private $files)
     {
