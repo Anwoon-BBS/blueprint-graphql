@@ -2,6 +2,7 @@
 
 namespace Anwoon\BlueprintGraphqlAddon;
 
+use Anwoon\BlueprintGraphqlAddon\Generator\GraphqlGenerator;
 use Blueprint\Blueprint;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
